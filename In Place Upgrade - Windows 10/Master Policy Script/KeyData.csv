@@ -1,0 +1,32 @@
+mode,zone,function,path,name,type,value,description
+registry,user,add,\SYSTEM\CurrentControlSet\Control\Session Manager\Power\,HiberbootEnabled,REG_DWORD,0,Disable Windows 10 FastBoot (Hybernation Boot)
+registry,user,delete,\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A},,,,Delete 3D Objects from Explorer
+registry,user,add,\SOFTWARE\Policies\Microsoft\Windows\Explorer,NoNewAppAlert,REG_DWORD,1,Disable Explorer Prompt to Question File Associations
+registry,user,add,\Software\Policies\Microsoft\Windows\CloudContent\,DisableWindowsConsumerFeatures,REG_DWORD,1,Suggested Apps - Disable
+registry,user,add,\SOFTWARE\Policies\Microsoft\Windows\Windows Search\,AllowCortana,REG_DWORD,0,Cortana - Disable
+registry,user,add,\SOFTWARE\Policies\Microsoft\Windows\Windows Search\,DisableWebSearch,REG_DWORD,1,Cortana Web Search - Disable
+registry,user,add,\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\,DisableDualScan,REG_DWORD,1,Disable Dual Scan - Disable
+registry,user,add,\SYSTEM\CurrentControlSet\Services\Tcpip6\Parameters\,DisabledComponents,REG_DWORD,255,IPv6 - Disable
+registry,user,add,\SOFTWARE\Policies\Microsoft\SQMClient\Windows,CEIPEnable,REG_DWORD,0,Customer Experience Improvement Program (CEIP) - Disable
+registry,user,add,\SOFTWARE\Microsoft\Windows NT\CurrentVersion\WinLogon,DisableCAD,REG_DWORD,1,Require CTRL+ALT+DEL - Disable
+registry,user,add,\SOFTWARE\Policies\Microsoft\Windows\System,EnableActivityFeed,REG_DWORD,0,Taskbar - Windows Timeline - Disable
+registry,user,add,\SOFTWARE\Policies\Microsoft\Windows\System,PublishUserActivities,REG_DWORD,0,Taskbar - Windows Timeline - Disable Published History
+registry,user,add,\SOFTWARE\Policies\Microsoft\Windows\System,UploadUserActivities,REG_DWORD,0,Taskbar - Windows Timeline - Disable Uploaded History
+registry,user,add,\SOFTWARE\Microsoft\Windows\CurrentVersion\OOBE,PrivacyConsentStatus,REG_DWORD,1,Windows 10 1803 Privacy OOBE Login - Disable
+registry,user,add,\SOFTWARE\Policies\Microsoft\WindowsStore,AutoDownload,REG_DWORD,2,Windows Store - Automatically Update Applications (2 = Off)
+registry,global,add,\SYSTEM\CurrentControlSet\Control\Session Manager\Power\,HiberbootEnabled,REG_DWORD,0,Disable Windows 10 FastBoot (Hybernation Boot)
+registry,global,delete,\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A},,,,Delete 3D Objects from Explorer
+registry,global,add,\SOFTWARE\Policies\Microsoft\Windows\Explorer,NoNewAppAlert,REG_DWORD,1,Disable Explorer Prompt to Question File Associations
+registry,global,add,\Software\Policies\Microsoft\Windows\CloudContent\,DisableWindowsConsumerFeatures,REG_DWORD,1,Suggested Apps - Disable
+registry,global,add,\SOFTWARE\Policies\Microsoft\Windows\Windows Search\,AllowCortana,REG_DWORD,0,Cortana - Disable
+registry,global,add,\SOFTWARE\Policies\Microsoft\Windows\Windows Search\,DisableWebSearch,REG_DWORD,1,Cortana Web Search - Disable
+registry,global,add,\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\,DisableDualScan,REG_DWORD,1,Disable Dual Scan - Disable
+registry,global,add,\SYSTEM\CurrentControlSet\Services\Tcpip6\Parameters\,DisabledComponents,REG_DWORD,255,IPv6 - Disable
+registry,global,add,\SOFTWARE\Policies\Microsoft\SQMClient\Windows,CEIPEnable,REG_DWORD,0,Customer Experience Improvement Program (CEIP) - Disable
+registry,global,add,\SOFTWARE\Microsoft\Windows NT\CurrentVersion\WinLogon,DisableCAD,REG_DWORD,1,Require CTRL+ALT+DEL - Disable
+registry,global,add,\SOFTWARE\Policies\Microsoft\Windows\System,EnableActivityFeed,REG_DWORD,0,Taskbar - Windows Timeline - Disable
+registry,global,add,\SOFTWARE\Policies\Microsoft\Windows\System,PublishUserActivities,REG_DWORD,0,Taskbar - Windows Timeline - Disable Published History
+registry,global,add,\SOFTWARE\Policies\Microsoft\Windows\System,UploadUserActivities,REG_DWORD,0,Taskbar - Windows Timeline - Disable Uploaded History
+registry,global,add,\SOFTWARE\Microsoft\Windows\CurrentVersion\OOBE,PrivacyConsentStatus,REG_DWORD,1,Windows 10 1803 Privacy OOBE Login - Disable
+registry,global,add,\SOFTWARE\Policies\Microsoft\WindowsStore,AutoDownload,REG_DWORD,2,Windows Store - Automatically Update Applications (2 = Off)
+file,user,delete,,,,,
